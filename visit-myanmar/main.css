@@ -1,3 +1,4 @@
+/* Working with Parallax scrolling */
 html,
 body {
   margin: 0;
@@ -39,7 +40,7 @@ body {
     transform: translateZ(-2px); }
 
 p {
-  width: 70%;
+  width: 85%;
   padding: 5%;
   margin: 0px auto;
   text-align: center;

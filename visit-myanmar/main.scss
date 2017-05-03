@@ -1,3 +1,5 @@
+/* Working with Parallax scrolling */
+
 $parallax-height: 100vh;
 $center-margin: 0px auto;
 
@@ -52,7 +54,7 @@ body {
 }
 
 p {
-  width: 70%;
+  width: 85%;
   padding: 5%;
   margin: $center-margin;
   text-align: center;
