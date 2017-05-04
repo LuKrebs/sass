@@ -18,12 +18,14 @@ $list: (orange, purple, teal);
 }
 
 /*  Building a rainbow */
-$total: 10; //Number of .ray divs in our html
-$step: 360deg / $total; //Used to compute the hue based on color-wheel
+$total: 10; /* Number of .ray divs in our html */
+$step: 360deg / $total; /* Used to compute the hue based on color-wheel */
 
 @for $i from 1 through $total {
   .ray:nth-child(#{$i}) {
     background: adjust-hue(blue, $i * $step);
+    margin-left: if($i % 2 == 0, 0px, 50px);
+    width: if($i % 2 == 0, 300px, 350px);
   }
 }
 

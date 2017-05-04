@@ -12,35 +12,57 @@
   background: teal; }
 
 /*  Building a rainbow */
+/* Number of .ray divs in our html */
+/* Used to compute the hue based on color-wheel */
 .ray:nth-child(1) {
-  background: #9900ff; }
+  background: #9900ff;
+  margin-left: 50px;
+  width: 350px; }
 
 .ray:nth-child(2) {
-  background: #ff00cc; }
+  background: #ff00cc;
+  margin-left: 0px;
+  width: 300px; }
 
 .ray:nth-child(3) {
-  background: #ff0033; }
+  background: #ff0033;
+  margin-left: 50px;
+  width: 350px; }
 
 .ray:nth-child(4) {
-  background: #ff6600; }
+  background: #ff6600;
+  margin-left: 0px;
+  width: 300px; }
 
 .ray:nth-child(5) {
-  background: yellow; }
+  background: yellow;
+  margin-left: 50px;
+  width: 350px; }
 
 .ray:nth-child(6) {
-  background: #66ff00; }
+  background: #66ff00;
+  margin-left: 0px;
+  width: 300px; }
 
 .ray:nth-child(7) {
-  background: #00ff33; }
+  background: #00ff33;
+  margin-left: 50px;
+  width: 350px; }
 
 .ray:nth-child(8) {
-  background: #00ffcc; }
+  background: #00ffcc;
+  margin-left: 0px;
+  width: 300px; }
 
 .ray:nth-child(9) {
-  background: #0099ff; }
+  background: #0099ff;
+  margin-left: 50px;
+  width: 350px; }
 
 .ray:nth-child(10) {
-  background: blue; }
+  background: blue;
+  margin-left: 0px;
+  width: 300px; }
 
 div {
   margin: 15px auto;
